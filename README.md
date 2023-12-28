@@ -1,2 +1,17 @@
-# Pemrograman-Web-Dasar
-memulai-dengan-html 
+function MyButton() {
+  return (
+    <button>
+      I'm a button
+    </button>
+  );
+}
+
+export default function MyApp() {
+  return (
+    <div>
+      <h1>HELLO SAYA MAKRUS NUR ANSORI</h1>
+      <MyButton />
+    </div>
+  );
+}
+
